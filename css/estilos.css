@@ -1,26 +1,30 @@
 h2, h3, h4 {
-    color:  #495057;
+    color:  #595959;
   }
   
   body {
-    background-color: #f8f9fa;
+    background-color: #F2F2F2;
     color: #495057;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .navbar {
-    background-color: #dee2e6 !important;
+    background-color: #CCCCCC !important;
   }
   
   .nav-link.active {
     font-weight: bold;
     color: #4dabf7 !important;
   }
+  .jumbo {
+    background-color: #F2F2F2;
+  }
   
   .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    background-color: #CCCCCC;
   }
   
   .card:hover {
@@ -29,11 +33,11 @@ h2, h3, h4 {
   }
   
   .card-title {
-    color: #495057;
+    color: #595959;
   }
   
   .card-text {
-    color: #495057;
+    color: #595959;
   }
   .card img {
     width: 100%;
@@ -57,7 +61,16 @@ h2, h3, h4 {
     to { opacity: 1; }
   }
   
-
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
   .carousel-item img {
     width: 100%;
@@ -65,7 +78,7 @@ h2, h3, h4 {
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
-    border: 3px solid #495057;
+    border: 4px solid #7F7F7F;
   }
   
   

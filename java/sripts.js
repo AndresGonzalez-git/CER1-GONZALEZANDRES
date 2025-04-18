@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Animación de aparición para elementos con la clase "animate-fade-in"
+    // Animación de aparición "animate-fade-in"
     const fadeElements = document.querySelectorAll(".animate-fade-in");
     fadeElements.forEach(el => {
       el.style.opacity = 0;
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 200);
     });
   
-    // Animación de deslizamiento para elementos con la clase "animate-slide-in"
+    // Animación de deslizamiento "animate-slide-in"
     const slideElements = document.querySelectorAll(".animate-slide-in");
     slideElements.forEach(el => {
       el.style.opacity = 0;
